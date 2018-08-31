@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeIn;
   }
   //rotate into X with menu lines
@@ -79,6 +79,8 @@
     }
   }
   &-branding {
+    margin-left: 0;
+    padding: 0;
     background: darken($window-color, 8);
     transform: translate3d(0, 100%, 0);
     @include easeIn;
@@ -116,7 +118,7 @@
     text-transform: uppercase;
     padding: 1em 0;
     font-weight: 500;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeIn;
 
