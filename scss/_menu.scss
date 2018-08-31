@@ -44,6 +44,12 @@
 
   &.show {
     visibility: visible;
+
+    main#home {
+      .sm-heading {
+        visibility: hidden;
+      }
+    }
   }
 
   &-branding,
@@ -85,7 +91,7 @@
     .portrait {
       height: 250px;
       width: 250px;
-      background: url();
+      background: url(../img/portrait.jpg);
       border-radius: 50%;
       border: solid 5px $secondary-color;
     }
