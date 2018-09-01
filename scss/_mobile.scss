@@ -71,19 +71,27 @@
       font-size: 75px;
     }
   }
-
   .projects {
     grid-template-columns: 1fr;
   }
 }
 
-@include orienation {
+@include orientationSm {
+  main {
+    align-items: center;
+    text-align: center;
+
+    .lg-heading {
+      line-height: 0.5;
+      margin-bottom: 1em;
+    }
+  }
+  html,
   body {
-    //@include background;
-    background: $secondary-color;
-    //color: set-text-color($primary-color);
+    //background-color: #000;
     height: 100%;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
+  }
+
+  body#bg-img {
   }
 }

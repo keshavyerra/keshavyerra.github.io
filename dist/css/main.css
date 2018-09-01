@@ -291,14 +291,15 @@ main {
     main#home h1.lg-heading {
       font-size: 75px; }
   .projects {
-    grid-template-columns: 1fr; }
-  body {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%; } }
+    grid-template-columns: 1fr; } }
 
-@media screen and (orientation: landscape) {
+@media all and (orientation: landscape) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 0.5;
+      margin-bottom: 1em; }
+  html,
   body {
-    background-color: #000;
-    background: none;
-    background-attachment: fixed;
-    background-size: cover; } }
+    height: 100%; } }

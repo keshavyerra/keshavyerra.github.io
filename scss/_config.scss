@@ -60,8 +60,9 @@ $background-opacity: 0.85;
     @content;
   }
 }
-@mixin orientation {
-  @media all and (orientation: portrait) {
+
+@mixin orientationSm {
+  @media all and (orientation: landscape) {
     @content;
   }
 }
