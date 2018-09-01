@@ -286,6 +286,19 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; }
+    margin-top: 10vh;
+    margin-bottom: 1vh; }
+    main#home h1.lg-heading {
+      font-size: 75px; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; } }
+
+@media screen and (orientation: landscape) {
+  body {
+    background-color: #000;
+    background: none;
+    background-attachment: fixed;
+    background-size: cover; } }
