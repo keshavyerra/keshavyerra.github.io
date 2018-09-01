@@ -107,4 +107,46 @@ main {
   height: 50px;
 }
 
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  img {
+    height: 100%;
+    width: 100%;
+    border: 5px #444 solid;
+
+    &:hover {
+      opacity: 0.6;
+      border-color: $secondary-color;
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background: lighten($primary-color, 20);
+  color: #fff;
+  //margin-left: 10px;
+}
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 40);
+  color: #fff;
+  //margin-left: 10px;
+}
+
 @import "mobile";
