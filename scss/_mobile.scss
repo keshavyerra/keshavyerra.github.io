@@ -113,6 +113,10 @@
   }
   main#about {
     padding: 30px;
+    text-align: justify;
+    .job {
+      padding: 12px;
+    }
   }
 }
 

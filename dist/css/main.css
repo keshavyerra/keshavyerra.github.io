@@ -325,7 +325,10 @@ main {
   .boxes div {
     font-size: 1.5rem; }
   main#about {
-    padding: 30px; } }
+    padding: 30px;
+    text-align: justify; }
+    main#about .job {
+      padding: 12px; } }
 
 @media screen and (orientation: landscape) {
   main .lg-heading {
