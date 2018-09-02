@@ -326,7 +326,7 @@ main {
     font-size: 1.5rem; }
   main#about {
     padding: 30px;
-    text-align: justify; }
+    text-align: left; }
     main#about .job {
       padding: 12px; } }
 
