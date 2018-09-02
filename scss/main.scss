@@ -97,6 +97,11 @@ main {
   background: lighten($primary-color, 10);
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
+  h3,
+  h5,
+  p {
+    padding-left: 10px;
+  }
 }
 
 #main-footer {
@@ -156,6 +161,9 @@ main {
   border: 0;
   margin-bottom: 0.3rem;
   &:hover {
+    @include easeIn;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.1);
     background: $secondary-color;
     color: set-text-color($secondary-color);
   }
@@ -163,13 +171,15 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: lighten($primary-color, 20);
+  background: lighten($primary-color, 15);
+  //border: 1px $secondary-color solid;
   color: #fff;
   //margin-left: 10px;
 }
 .btn-light {
   @extend .btn;
-  background: lighten($primary-color, 40);
+  background: lighten($primary-color, 25);
+  //border: 1px $secondary-color solid;
   color: #fff;
   //margin-left: 10px;
 }
