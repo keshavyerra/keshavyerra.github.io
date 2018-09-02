@@ -323,7 +323,9 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  main#about {
+    padding: 30px; } }
 
 @media screen and (orientation: landscape) {
   main .lg-heading {

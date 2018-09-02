@@ -111,6 +111,9 @@
       font-size: 1.5rem;
     }
   }
+  main#about {
+    padding: 30px;
+  }
 }
 
 @include orientationSm {
