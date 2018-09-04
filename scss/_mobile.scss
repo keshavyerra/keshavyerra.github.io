@@ -100,8 +100,10 @@
   }
 
   .boxes {
+    margin-bottom: 0.5rem;
     div {
       font-size: 1.5rem;
+      padding: 20px;
     }
   }
   main#about {
@@ -109,6 +111,17 @@
     text-align: left;
     .job {
       padding: 12px;
+    }
+  }
+
+  main#contact {
+    h1 {
+      &.lg-heading {
+        padding-bottom: 20px;
+        //padding-right: 30px;
+        font-size: 60px;
+        width: 100%;
+      }
     }
   }
 }

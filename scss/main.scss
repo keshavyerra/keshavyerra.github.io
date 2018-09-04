@@ -135,7 +135,8 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1 rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 
   div {
     font-size: 2rem;
@@ -151,6 +152,21 @@ main {
       span {
         color: #000;
       }
+    }
+  }
+}
+
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1 rem;
+  a {
+    padding: 0.4rem;
+    &:hover {
+      color: $secondary-color;
+      @include easeIn();
     }
   }
 }
