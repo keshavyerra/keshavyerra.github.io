@@ -250,11 +250,13 @@ main {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1 rem; }
-  .contact-icons a {
-    padding: 0.4rem; }
-    .contact-icons a:hover {
-      color: #8d0000;
-      transition: all 0.5s ease-out; }
+  .contact-icons div {
+    font-size: 1.75rem; }
+    .contact-icons div a {
+      padding: 0.4rem; }
+      .contact-icons div a:hover {
+        color: #8d0000;
+        transition: all 0.5s ease-out; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -316,7 +318,9 @@ main {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .contact-icons div {
+    font-size: 30px; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -345,7 +349,7 @@ main {
     margin-bottom: 0.5rem; }
     .boxes div {
       font-size: 1.5rem;
-      padding: 20px; }
+      padding: 10px; }
   main#about {
     padding: 30px;
     text-align: left; }
@@ -356,7 +360,9 @@ main {
     font-size: 60px;
     width: 100%; }
   main {
-    padding: 50px; } }
+    padding: 50px; }
+  .contact-icons div {
+    font-size: 20px; } }
 
 @media screen and (orientation: landscape) {
   main .lg-heading {
