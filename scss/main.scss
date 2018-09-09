@@ -171,11 +171,14 @@ main {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 1 rem;
-  a {
-    padding: 0.4rem;
-    &:hover {
-      color: $secondary-color;
-      @include easeIn();
+  div {
+    font-size: 1.75rem;
+    a {
+      padding: 0.4rem;
+      &:hover {
+        color: $secondary-color;
+        @include easeIn;
+      }
     }
   }
 }

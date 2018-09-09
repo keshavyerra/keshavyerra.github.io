@@ -64,6 +64,11 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+  .contact-icons {
+    div {
+      font-size: 30px;
+    }
+  }
 }
 //mobile phones
 @include mediaSm {
@@ -107,7 +112,7 @@
     margin-bottom: 0.5rem;
     div {
       font-size: 1.5rem;
-      padding: 20px;
+      padding: 10px;
     }
   }
   main#about {
@@ -136,6 +141,11 @@
   }
   main {
     padding: 50px;
+  }
+  .contact-icons {
+    div {
+      font-size: 20px;
+    }
   }
 }
 
