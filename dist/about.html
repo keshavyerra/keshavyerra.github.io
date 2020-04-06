@@ -5,114 +5,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Welcome to my Portfolio!</title>
 </head>
 
 <body>
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
+<header>
+    <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+        <div class="menu-branding">
+            <div class="portrait"></div>
         </div>
+        <ul class="menu-nav">
+            <li class="nav-item ">
+                <a href="../index.html" class="nav-link">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item current">
+                <a href="about.html" class="nav-link">
+                    About Me
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="work.html" class="nav-link">
+                    My Work
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">
+                    How To Reach Me
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
-            </div>
-            <ul class="menu-nav">
-                <li class="nav-item ">
-                    <a href="../index.html" class="nav-link">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item current">
-                    <a href="about.html" class="nav-link">
-                        About Me
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="work.html" class="nav-link">
-                        My Work
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">
-                        How To Reach Me
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<main id="about">
+    <h1 class="lg-heading">
+        About
+        <span class="text-secondary">Me</span>
+    </h1>
+    <div class="about-info">
+        <img src="img/portrait.jpg" alt="Keshav Yerra" class="bio-image">
 
-    <main id="about">
-        <h1 class="lg-heading">
-            About
-            <span class="text-secondary">Me</span>
-        </h1>
-        <div class="about-info">
-            <img src="img/portrait.jpg" alt="Keshav Yerra" class="bio-image">
-
-            <div class="bio">
-                <h3 class="text-secondary">BIO</h3>
-                <p class="bio-info">
-                    Experienced Research Asistant and Teaching Assistant with a demosntrated history of working in the higher education industry.
-                    <br> Skilled in Java, JavaScript, SQL Server, NoSQL Databases, C, React.js, Node.js, AWS, GIT.
-                    <br> Strong Quality assurance professional with a Master's Degree focused in Computer Science and Information
-                    Systems from Cleveland State University with a GPA of 3.82.
-                    <br>I believe in learning and I'm very enthusiastic in learning new technology and keeping up with the current
-                    trend.
-                </p>
-            </div>
-            <div class="job job-1">
-                <h3>Presrite Corporation</h3>
-                <h5>Software Developer Intern</h5>
-                <p>
-                    ▪ Working closely with senior developers, architect and helping them in developing & executing complex design projects.
-
-                    <br>▪ Build and deployed artifacts using Jenkins jobs.
-                    <br>▪ Implemented functional logic by fetching the data from database and exposed processed data using Restful
-                    Web services as per the business requirements.
-                    <br>▪ Working on improvements & new features in an incremental roll out for proposed changes & end user A/B
-                    testing.
-                    <br>▪ Used Test Driven Development approach (TDD), created test suites using Junit and Selenium for unit
-                    testing and end-end functional testing respectively.
-                    <br>▪ Created Logstash log formatting files and Indexes for ELK (Elasticsearch, Logstash & Kabana) stack
-                    and used it for monitoring production logs. Also created dashboards in Kabana for ease of separating
-                    functional business logs and infrastructure logs to derive metrics.
-                    <br>▪ Contributing to design and developments of UI, Server side and Database components during my time here.
-                </p>
-            </div>
-            <div class="job job-2">
-                <h3>Cleveland State University</h3>
-                <h5>Reasearch Assistant</h5>
-                <p>▪ Implementing new Ideas to tackle the outdated techniques.
-                    <br>▪ Created an IoT application that can send, receive and process a MQTT message from any smart device.
-                    <br>▪ Deployed the application to Amazon Web Service (AWS IoT).
-                    <br>▪ Visualizing the sensor data from the devices on a server less Web Application in real time using the
-                    Amazon API Gateway and Amazon S3.
-                    <br>▪ Regularly interacting with the hardware team to integrate software into custom design projects.
-                    <br>▪ Creating and submitting research reports.
-                </p>
-            </div>
-            <div class="job job-3">
-                <h3>Cleveland State University</h3>
-                <h5>Teaching Assistant</h5>
-                <p>▪ Guided Students on home works and assignments.
-                    <br>▪ Provided feedback to improve programming techniques and efficiency.
-                    <br>▪ Developed, administered and corrected tests and quizzes in a timely manner.
-                    <br>▪ Coordinated after school tutoring hours to help students who were in need of extra attention.
-                    <br>▪ Worked with students on individual and small group basis to reinforce learning concepts, helped in
-                    completing assignments, and improve overall performance.
-                </p>
-            </div>
+        <div class="bio">
+            <h3 class="text-secondary">BIO</h3>
+            <p class="bio-info">
+                Currently working as an Application developer with hands-on experience in creating and maintaining
+                <b style="color: red">Microservice Architecture</b> based applications with <b style="color: red">full stack</b> coverage.
+                <br>And also an experienced Research Assistant and Teaching Assistant with a demonstrated history of working in the
+                higher education industry.
+                <br> Skilled in <b style="color: red">Java, GoLang, JavaScript, MySQL, NoSQL Databases, React.js, Node.js, AWS, GIT</b>.
+                <br> Strong Quality assurance professional with a Master's Degree focused in Computer Science and
+                Information
+                Systems from Cleveland State University with a GPA of 3.82.
+                <br>I believe in learning and I'm very enthusiastic in learning new technology and keeping up with the
+                current
+                trend.
+            </p>
         </div>
-    </main>
-    <footer id="main-footer">Copyright &copy; 2018</footer>
-    <script src="js/main.js"></script>
+        <div class="job job-1">
+            <h3>LBrands</h3>
+            <h5>Assoc Application Developer</h5>
+            <p>
+                ▪Designed, developed and maintained Hippo Content Management System (CMS) a Java content repository API
+                for maintaining <b style="color: red">victoriassecret.com</b>.
+                <br>▪Leveraged <b style="color: red">Java</b> for creating software solutions to develop CMS to meet
+                business needs and created
+                new, customized out of the box components to make the application more efficient.
+                <br>▪Made use of <b style="color: red">GIT</b> for version control to maintain the code flow, achieved
+                this by using <b style="color: red">SourceTree</b>
+                tool. ▪Worked with Senior Developers and Architects along the way to design and implement new features
+                to the current application and regularly interacted with Commerce and Front-end teams for new design
+                patterns and data flow.
+                <br>▪ Regularly interacted with business partners to actively discuss new advancements and improvements
+                to
+                the current application.
+                <br>▪Implemented and deployed few <b style="color: red">REST</b> based services for automating the
+                current workflow for better
+                scalability.
+                <br>▪Migrated important functions to <b style="color: red">Microservices</b> using <b
+                    style="color: red">GoLang</b> for handling and processing the product
+                data to make the application more scalable and keep track of the performance for each service.
+                <br>▪Used <b style="color: red">Apache Kafka</b> tool for handling real-time streaming data from various
+                sources, hence created
+                and
+                configured various consumers and producers for handling huge amount of data.
+                <br>▪Used <b style="color: red">CouchDB</b> for managing and storing the product information in JSON
+                format for better processing
+                and implementation. Used CouchDB to process the data in Kafka by creating and configuring the
+                connection between the two.
+                <br>▪Made use of developer management tools such as <b style="color: red">Confluence and Jira</b> for
+                better understanding of user
+                requirements and interacting with them.
+                <br>▪Created dashboards in <b style="color: red">Grafana</b> for monitoring the services and performance
+                of the application.
+                Configured <b style="color: red">Kibana</b> for logging all the activity related to application to
+                easily track down production
+                issues.
+                <br>▪Closely worked with team members in an <b style="color: red">Agile methodology</b> in two-week
+                Sprint basis and attended
+                daily Scrum meeting, brainstorming sessions and regular code reviews.
+            </p>
+        </div>
+        <div class="job job-2">
+            <h3>Presrite Corporation</h3>
+            <h5>Software Developer Intern</h5>
+            <p>
+                ▪ Working closely with senior developers, architect and helping them in developing & executing complex
+                design projects.
+
+                <br>▪ Build and deployed artifacts using <b style="color: red">Jenkins</b> jobs.
+                <br>▪ Implemented functional logic by fetching the data from database and exposed processed data using
+                Restful
+                Web services as per the business requirements.
+                <br>▪ Working on improvements & new features in an incremental roll out for proposed changes & end user
+                A/B
+                testing.
+                <br>▪ Used Test Driven Development approach (TDD), created test suites using <b
+                    style="color: red">Junit</b> and <b style="color: red">Selenium</b> for unit
+                testing and end-end functional testing respectively.
+                <br>▪ Created <b style="color: red">Logstash</b> log formatting files and Indexes for <b
+                    style="color: red">ELK (Elasticsearch, Logstash & Kabana)</b> stack
+                and used it for monitoring production logs. Also created dashboards in Kabana for ease of separating
+                functional business logs and infrastructure logs to derive metrics.
+                <br>▪ Contributing to design and developments of UI using <b style="color: red">JavaScript</b> along
+                with Server side and Database components during my time
+                here.
+            </p>
+        </div>
+        <div class="job job-3">
+            <h3>Cleveland State University</h3>
+            <h5>Reasearch Assistant</h5>
+            <p>▪ Implementing new Ideas to tackle the outdated techniques.
+                <br>▪ Created an IoT application that can send, receive and process a MQTT message from any smart
+                device.
+                <br>▪ Deployed the application to <b style="color: red">Amazon Web Service</b> (AWS IoT).
+                <br>▪ Visualizing the sensor data from the devices on a server less Web Application in real time using
+                the
+                <b style="color: red">Amazon API Gateway and Amazon S3</b>.
+                <br>▪ Regularly interacting with the hardware team to integrate software into custom design projects.
+                <br>▪ Creating and submitting research reports.
+            </p>
+        </div>
+        <div class="job job-4">
+            <h3>Cleveland State University</h3>
+            <h5>Teaching Assistant</h5>
+            <p>▪ Guided Students on home works and assignments.
+                <br>▪ Provided feedback to improve programming techniques and efficiency.
+                <br>▪ Developed, administered and corrected tests and quizzes in a timely manner.
+                <br>▪ Coordinated after school tutoring hours to help students who were in need of extra attention.
+                <br>▪ Worked with students on individual and small group basis to reinforce learning concepts, helped in
+                completing assignments, and improve overall performance.
+            </p>
+        </div>
+    </div>
+</main>
+<footer id="main-footer">Copyright &copy; 2018</footer>
+<script src="js/main.js"></script>
 </body>
 
 </html>
